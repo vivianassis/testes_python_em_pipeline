@@ -8,7 +8,7 @@ class AprendizTest(TestCase):
         self.viviana = personagens.Aprendiz(nome='Viviana')
     
     def test_criar_aprendiz(self):
-        assert self.viviana.nome == 'Matheus'
+        assert self.viviana.nome == 'Viviana'
         assert self.viviana.habilidades_aprendidas == {}
 
     def test_upar_habilidade(self):
